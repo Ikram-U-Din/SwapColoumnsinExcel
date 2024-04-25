@@ -1,7 +1,7 @@
 import openpyxl
 
 # Load the Excel file
-wb = openpyxl.load_workbook('check-odd-col.xlsx')
+wb = openpyxl.load_workbook('your_excel_workbook_name.xlsx')
 
 # Select the active worksheet
 ws = wb.active
